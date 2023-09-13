@@ -1,8 +1,26 @@
 body {
+  max-width: 750px;
+  text-align: center;
+  justify-content: center;
+  padding: 5%;
+}
+
+.dragon {
+  max-width: 85%;
 
 }
 
-img {
-  max-width: 100%;
-  height: auto;
+.magiccat {
+  max-width: 65%;
+
+}
+
+.zombierabbit {
+  max-width: 35%;
+
+}
+
+.creaturedesign {
+  max-width: 75%;
+
 }
