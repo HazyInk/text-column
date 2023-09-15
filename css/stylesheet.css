@@ -17,10 +17,11 @@ body {
   padding-top: 30px;
   padding-bottom: 30px; 
   color: white;
+  font-family: Optima, sans-serif;
   background-image: linear-gradient(rgb(57, 52, 64), rgb(92, 69, 119));
 }
 
-/* Font, Alignment & Sizes */
+/* Font, Size & Alignment */
 
 h1 {
   font-size: 60px;
@@ -28,17 +29,17 @@ h1 {
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 35px;
   font-family: Optima, sans-serif;
 }
 
 h3 {
-  font-size: 30px;
+  font-size: 22px;
   font-family: Optima, sans-serif;
 }
 
 p {
-  font-size: 20px;
+  font-size: 18px;
   font-family: Optima, sans-serif;
 }
 
@@ -49,6 +50,24 @@ p {
   font-family: Optima, sans-serif;
 }
 
+/* Flexbox */
+
+.flex1 {
+  display: flex;
+}
+
+.one {
+  padding: 2%;
+}
+
+.two {
+  padding: 2%;
+}
+
+.three {
+  padding: 2%;
+}
+
 /* Link's & Button's */
 
 a {
@@ -56,13 +75,14 @@ a {
 }
 
 .button {
-  border: none;
+  border-radius: 1rem;
+  border: .5rem;
   color: rgb(226, 105, 151);
-  padding: 16px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  padding: 16px 32px;
+  font-size: 17px;
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
@@ -70,24 +90,4 @@ a {
 
 .button:hover {
   background-color: rgb(0, 0, 0);
-}
-
-/* Images */
-
-.dragon {
-  max-width: 95%;
-  display: table;
-  margin: auto;
-}
-
-.magiccat {
-  max-width: 65%;
-  display: table;
-  margin: auto;
-}
-
-.zombierabbit {
-  max-width: 65%;
-  display: table;
-  margin: auto;
 }
