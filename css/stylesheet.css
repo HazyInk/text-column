@@ -22,10 +22,6 @@ body {
 
 /* Font, Alignment & Sizes */
 
-div {
-  column-count: 3;
-}
-
 h1 {
   font-size: 60px;
   font-family: Optima, sans-serif;
@@ -79,7 +75,7 @@ a {
 /* Images */
 
 .dragon {
-  max-width: 300%;
+  max-width: 95%;
   display: table;
   margin: auto;
 }
