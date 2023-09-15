@@ -17,7 +17,7 @@ body {
   padding-bottom: 30px; 
   font-family: Optima, sans-serif;
   color: white;
-  background-image: linear-gradient(rgb(52, 59, 64), rgb(69, 101, 119));
+  background-image: linear-gradient(rgb(57, 52, 64), rgb(92, 69, 119));
 }
 
 div.container {
@@ -25,7 +25,7 @@ div.container {
 }
 
 a {
-  color: rgb(132, 220, 255);
+  color: rgb(255, 132, 183);
 }
 
 .ol {
@@ -35,7 +35,7 @@ a {
 
 .button {
   border: none;
-  color: rgb(105, 184, 226);
+  color: rgb(226, 105, 151);
   padding: 16px 32px;
   text-align: center;
   text-decoration: none;
